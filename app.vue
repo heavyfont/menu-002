@@ -78,7 +78,6 @@
 .app {
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0.5rem;
 }
 
 </style>
