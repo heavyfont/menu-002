@@ -15,7 +15,11 @@ export default defineNuxtConfig({
           '~/assets/styles/main.scss',
           '~/assets/css/fonts.css'
      ],
-
+     image: {
+          cloudinary: {
+            baseURL: 'https://res.cloudinary.com/dnwakycvo/image/fetch/'
+          }
+        },
      gsap: {
           extraPlugins: {
             scrollTrigger: true,

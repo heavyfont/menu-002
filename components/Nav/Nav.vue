@@ -63,7 +63,7 @@ onMounted(() => {});
               </article>
               <article class="menu-right col-span-1">
                   <figure class="h-full menu-right-image">
-                     <NuxtImg  class="w-full" src="https://res.cloudinary.com/dnwakycvo/image/upload/v1710781429/sample/dream_fur78g.jpg" alt="" />
+                     <NuxtImg  provider="cloudinary" class="w-full" src="https://res.cloudinary.com/dnwakycvo/image/upload/v1710781429/sample/dream_fur78g.jpg" alt="" />
                   </figure>
               </article>
           </div>
